@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: rgb(244, 244, 249);
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .titulo {
+            font-family: "Skranji", system-ui;
+            font-weight: 400;
+            font-style: normal;
+            color: rgb(255, 140, 0);
+            font-size: 25px;
+        }
+
+        .barrinha {
+            background-image: linear-gradient(to right, rgb(0, 15, 103), rgb(53, 4, 189));
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 32px;
+        }
+
+        .links {
+            list-style: none;
+            font-size: 20px;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .links li {
+            margin-left: 20px;
+        }
+
+        .links a {
+            color: rgb(255, 140, 0);
+            font-family: "Skranji", system-ui;
+            text-decoration: none;
+            transition: 0.3s;
+            display: inline-block;
+        }
+
+        .links a:hover {
+            color: rgb(255, 217, 170);
+            transform: scale(1.1);
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            margin: 10px;
+            margin-left: 50px;
+        }
+
+        .bemvindo {
+            font-family: "Skranji", system-ui;
+            font-weight: 400;
+            font-style: normal;
+            color: rgb(51, 51, 51);
+            font-size: 25px;
+        }
+
+        .texto {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            color: rgb(51, 51, 51);
+            margin: 10px;
+            margin-left: 50px;
+            font-size: 17px;
+            max-width: 75ch;
+
+        }
+
+        .caixa {
+            padding: 16px;
+            background-image: linear-gradient(to bottom right, rgb(230, 230, 235), rgb(200, 200, 205));
+            box-shadow: 7px 7px 15px 1px rgba(86, 86, 86, 0.50);
+            margin: 20px 50px;
+            width: 680px;
+            border-radius: 5px;
+        }
+
+        .textocaixa {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            margin: 10px;
+            margin-left: 20px;
+        }
+
+        .contatos a {
+            text-decoration: none;
+            color: rgb(51, 51, 51);
+            margin-left: 20px;
+        }
+
+        .titulo-caixa {
+            font-family: "Skranji", system-ui;
+            font-weight: 400;
+            font-style: normal;
+            color: rgb(51, 51, 51);
+            font-size: 25px;
+            margin-left: 20px;
+        }
+
+        .habilidades{
+            list-style: none;
+            margin-left: -18px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="barrinha">
+        <div class="titulo">PORTIFÓLIO DO MR. COMÉDIA</div>
+        <nav>
+            <ul class="links">
+                <li><a href="index.html">Pág. inicial</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <p class="texto">
+        Este site se trata de uma página acadêmica, servindo como uma atividade avaliativa da disciplina de
+        Desenvolvimento Web, onde aprendemos a criar páginas simples utilizando HTML e CSS.
+    </p>
+    <p class="bemvindo">Seja bem-vindo ao meu Portifólio!</p>
+    <p class="texto">Neste portifólio, falarei sobre mim, sobre a instituição onde estudo e sobre minhas habildades como
+        desenvolvedor.</p>
+        
+    <div class="caixa">
+        <p class="titulo-caixa">Sobre mim</p>
+        <p class="textocaixa">Olá, me chamo Cayo Bueno da Silva, tenho 16 anos, estudo no Instituto Federal de Educação,
+            Ciência e Tecnologia do Paraná, onde aprendo cada vez mais sobre a fascinante arte de programar.
+        </p>
+        <p class="titulo-caixa">Habilidades:</p>
+        <ul class="habilidades">
+            <li>PHP básico</li>
+            <li>HTMl e CSS básico iniciante</li>
+            <li>Shell Script básico</li>
+        </ul>
+    </div>
+
+    <div class="caixa">
+        <p class="titulo-caixa">Sobre onde estudo </p>
+        <p class="textocaixa">Eu estudo no IFPR, uma instituição pública federal que oferece ensino técnico e superior
+            gratuito em
+            diversos campi pelo Paraná. Seu principal diferencial é o Ensino Médio Integrado, onde o estudante cursa as
+            disciplinas da base comum e a formação técnica ao mesmo tempo, saindo com um diploma profissionalizante.</p>
+        <p class="textocaixa">Além das aulas, o IFPR foca muito em pesquisa e projetos práticos, incentivando os
+            alunos a irem além da teoria. É uma excelente escolha para quem busca uma formação de qualidade, conectada
+            ao mundo de trabalho e ao desenvolvimento científico desde cedo.</p>
+        </p>
+    </div>
+
+    <div class="caixa">
+        <section class="contatos">
+            <p class="titulo-caixa">Entre em contato</p>
+            <a href="mailto:cayo.bueno.silva@gmail.com">📧 E-mail (fictício)</a>
+            <a clas href="https://github.com/mrBuenoIFPR" target="_blank">💻 GitHub</a>
+        </section>
+    </div>
+
+</body>
+
+</html>
